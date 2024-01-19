@@ -1,0 +1,56 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'johnpbloch/wordpress' => array(
+            'pretty_version' => '6.4.2',
+            'version' => '6.4.2.0',
+            'reference' => 'cea8e15d973a3dc55ea336cb0ceb7aeee4ebd286',
+            'type' => 'package',
+            'install_path' => __DIR__ . '/../johnpbloch/wordpress',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'johnpbloch/wordpress-core' => array(
+            'pretty_version' => '6.4.2',
+            'version' => '6.4.2.0',
+            'reference' => '00ea636cf89fd17daacbc3862f368a2782267825',
+            'type' => 'wordpress-core',
+            'install_path' => __DIR__ . '/../../wordpress',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'johnpbloch/wordpress-core-installer' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'reference' => '237faae9a60a4a2e1d45dce1a5836ffa616de63e',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/../johnpbloch/wordpress-core-installer',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wordpress/core-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '6.4.2',
+            ),
+        ),
+    ),
+);
